@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/Background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F4F4"
+    tools:context=".BookingScreen">
+
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="319dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/muteboxlogo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.521"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/MuteBox1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/ic_smallgreenbox" />
+
+    <ImageView
+        android:id="@+id/MuteBox2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MuteBox1"
+        app:srcCompat="@drawable/ic_smallgreenbox" />
+
+    <ImageView
+        android:id="@+id/MuteBox3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MuteBox2"
+        app:srcCompat="@drawable/ic_smallgreenbox" />
+
+    <ImageView
+        android:id="@+id/MuteBox4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/MuteBox3"
+        app:srcCompat="@drawable/ic_smallgreenbox" />
+
+    <TextView
+        android:id="@+id/MuteBox1Text"
+        android:layout_width="279dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center|top"
+        android:hint="@string/MuteBox1Text"
+        android:textColorHint="#000000"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="@+id/MuteBox1"
+        app:layout_constraintStart_toStartOf="@+id/MuteBox1"
+        app:layout_constraintTop_toTopOf="@+id/MuteBox1" />
+
+    <TextView
+        android:id="@+id/MuteBox2Text"
+        android:layout_width="279dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center|top"
+        android:hint="@string/MuteBox2Text"
+        android:textColorHint="#000000"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="@+id/MuteBox2"
+        app:layout_constraintStart_toStartOf="@+id/MuteBox2"
+        app:layout_constraintTop_toTopOf="@+id/MuteBox2" />
+
+    <TextView
+        android:id="@+id/MuteBox3Text"
+        android:layout_width="279dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center|top"
+        android:hint="@string/MuteBox3Text"
+        android:textColorHint="#000000"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="@+id/MuteBox3"
+        app:layout_constraintStart_toStartOf="@+id/MuteBox3"
+        app:layout_constraintTop_toTopOf="@+id/MuteBox3" />
+
+    <TextView
+        android:id="@+id/MuteBox4Text"
+        android:layout_width="279dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center|top"
+        android:hint="@string/MuteBox4Text"
+        android:textColorHint="#000000"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toEndOf="@+id/MuteBox4"
+        app:layout_constraintStart_toStartOf="@+id/MuteBox4"
+        app:layout_constraintTop_toTopOf="@+id/MuteBox4" />
+
+    <Button
+        android:id="@+id/mB1Book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/mB1Book"
+        android:textColorHint="@color/white"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/MuteBox1"
+        app:layout_constraintEnd_toEndOf="@+id/MuteBox1"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/mB2Book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/mB2Book"
+        android:textColorHint="@color/white"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/MuteBox2"
+        app:layout_constraintEnd_toEndOf="@+id/MuteBox2"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/mB3Book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/mB3Book"
+        android:textColorHint="@color/white"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/MuteBox3"
+        app:layout_constraintEnd_toEndOf="@+id/MuteBox3"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/mB4Book"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/mB4Book"
+        android:textColorHint="@color/white"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/MuteBox4"
+        app:layout_constraintEnd_toEndOf="@+id/MuteBox4"
+        app:layout_constraintHorizontal_bias="0.808"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/mB1BookText"
+        android:layout_width="195dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="88dp"
+        android:text="@string/preBookText"
+        android:textAlignment="center"
+        android:visibility="gone"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/MuteBox1"
+        app:layout_constraintTop_toBottomOf="@+id/MuteBox1Text" />
+
+    <TextView
+        android:id="@+id/mB2BookText"
+        android:layout_width="195dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="88dp"
+        android:text="@string/preBookText"
+        android:textAlignment="center"
+        android:visibility="gone"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/MuteBox2"
+        app:layout_constraintTop_toBottomOf="@+id/MuteBox2Text" />
+
+    <TextView
+        android:id="@+id/mB3BookText"
+        android:layout_width="195dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="88dp"
+        android:text="@string/preBookText"
+        android:textAlignment="center"
+        android:visibility="gone"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/MuteBox3"
+        app:layout_constraintTop_toBottomOf="@+id/MuteBox3Text" />
+
+    <TextView
+        android:id="@+id/mB4BookText"
+        android:layout_width="195dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="88dp"
+        android:text="@string/preBookText"
+        android:textAlignment="center"
+        android:visibility="gone"
+        android:textColor="@color/black"
+        app:layout_constraintEnd_toEndOf="@+id/MuteBox4"
+        app:layout_constraintTop_toBottomOf="@+id/MuteBox4Text" />
+
+    <Button
+        android:id="@+id/mB1EndBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/mB1EndBook"
+        android:textColorHint="@color/white"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/MuteBox1"
+        app:layout_constraintEnd_toEndOf="@+id/MuteBox1"
+        app:layout_constraintHorizontal_bias="0.287"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/mB2EndBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/mB2EndBook"
+        android:textColorHint="@color/white"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/MuteBox2"
+        app:layout_constraintEnd_toEndOf="@+id/MuteBox2"
+        app:layout_constraintHorizontal_bias="0.287"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/mB3EndBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/mB3EndBook"
+        android:textColorHint="@color/white"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/MuteBox3"
+        app:layout_constraintEnd_toEndOf="@+id/MuteBox3"
+        app:layout_constraintHorizontal_bias="0.287"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/mB4EndBook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/mB4EndBook"
+        android:textColorHint="@color/white"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/MuteBox4"
+        app:layout_constraintEnd_toEndOf="@+id/MuteBox4"
+        app:layout_constraintHorizontal_bias="0.287"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/backArrow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="@+id/MuteBox1"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="@+id/MuteBox1"
+        app:srcCompat="@drawable/ic_gobackicon" />
+
+    <ImageView
+        android:id="@+id/backArrow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="@+id/MuteBox2"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="@+id/MuteBox2"
+        app:srcCompat="@drawable/ic_gobackicon" />
+
+    <ImageView
+        android:id="@+id/backArrow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="@+id/MuteBox3"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="@+id/MuteBox3"
+        app:srcCompat="@drawable/ic_gobackicon" />
+
+    <ImageView
+        android:id="@+id/backArrow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="@+id/MuteBox4"
+        android:visibility="gone"
+        app:layout_constraintTop_toTopOf="@+id/MuteBox4"
+        app:srcCompat="@drawable/ic_gobackicon" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

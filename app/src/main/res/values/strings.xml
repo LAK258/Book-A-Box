@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">AplicationFinal</string>
+    <string name="login">Login</string>
+    <string name="Username">Please enter username</string>
+    <string name="MuteBox1Text">MuteBox 1.112</string>
+    <string name="MuteBox2Text">MuteBox 1.113</string>
+    <string name="MuteBox3Text">MuteBox 1.114</string>
+    <string name="MuteBox4Text">MuteBox 1.115</string>
+    <string name="mB1Book">Book</string>
+    <string name="mB2Book">Book</string>
+    <string name="mB3Book">Book</string>
+    <string name="mB4Book">Book</string>
+    <string name="preBookText">You have 5 minutes to acquire the MuteBox when booked</string>
+    <string name="postBookText">Your MuteBox has been reserved by:</string>
+    <string name="mB1EndBook">End booking</string>
+    <string name="mB2EndBook">End booking</string>
+    <string name="mB3EndBook">End booking</string>
+    <string name="mB4EndBook">End booking</string>
+    <string name="Alert">Are you sure you want to end booking?</string>
+
+
+</resources>
